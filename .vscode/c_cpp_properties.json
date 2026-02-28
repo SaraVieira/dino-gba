@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "GBA (devkitARM)",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/Users/saravieira/Documents/butano/butano/include",
+                "/Users/saravieira/Documents/butano/common/include",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include/c++/14.2.0",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include/c++/14.2.0/arm-none-eabi",
+                "/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include",
+                "/opt/devkitpro/libgba/include",
+                "/opt/devkitpro/libtonc/include",
+                "${workspaceFolder}/build"
+            ],
+            "defines": [
+                "__GBA__",
+                "__arm__"
+            ],
+            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-g++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
